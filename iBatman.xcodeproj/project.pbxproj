@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396E66401973001B002E4323 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396E663F1973001B002E4323 /* ShareViewController.m */; };
+		396E66421973001B002E4323 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396E66411973001B002E4323 /* MainInterface.storyboard */; };
+		396E66451973001B002E4323 /* Share Batman.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 396E663A1973001A002E4323 /* Share Batman.appex */; };
 		39F6BE7D1972CEB900AC6325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6BE7C1972CEB900AC6325 /* main.m */; };
 		39F6BE801972CEB900AC6325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6BE7F1972CEB900AC6325 /* AppDelegate.m */; };
 		39F6BE831972CEB900AC6325 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6BE821972CEB900AC6325 /* ViewController.m */; };
 		39F6BE861972CEB900AC6325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F6BE841972CEB900AC6325 /* Main.storyboard */; };
 		39F6BE881972CEB900AC6325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F6BE871972CEB900AC6325 /* Images.xcassets */; };
 		39F6BE941972CEB900AC6325 /* iBatmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6BE931972CEB900AC6325 /* iBatmanTests.m */; };
+		39F6BEA41972D0F800AC6325 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F6BEA31972D0F800AC6325 /* NotificationCenter.framework */; };
+		39F6BEAA1972D0F800AC6325 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6BEA91972D0F800AC6325 /* TodayViewController.m */; };
+		39F6BEAC1972D0F800AC6325 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F6BEAB1972D0F800AC6325 /* MainInterface.storyboard */; };
+		39F6BEAF1972D0F800AC6325 /* iBatman Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 39F6BEA11972D0F800AC6325 /* iBatman Today.appex */; };
+		39F6BEC31972F73900AC6325 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F6BEA31972D0F800AC6325 /* NotificationCenter.framework */; };
+		39F6BEC91972F73900AC6325 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6BEC81972F73900AC6325 /* TodayViewController.m */; };
+		39F6BECB1972F73900AC6325 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F6BECA1972F73900AC6325 /* MainInterface.storyboard */; };
+		39F6BECE1972F73900AC6325 /* Batman Signal.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 39F6BEC21972F73900AC6325 /* Batman Signal.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		396E66431973001B002E4323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396E66391973001A002E4323;
+			remoteInfo = "Share Batman";
+		};
+		396E66461973001B002E4323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396E66391973001A002E4323;
+			remoteInfo = "Share Batman";
+		};
 		39F6BE8E1972CEB900AC6325 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
@@ -23,9 +48,58 @@
 			remoteGlobalIDString = 39F6BE761972CEB900AC6325;
 			remoteInfo = iBatman;
 		};
+		39F6BEAD1972D0F800AC6325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F6BEA01972D0F800AC6325;
+			remoteInfo = "iBatman Today";
+		};
+		39F6BEB01972D0F800AC6325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F6BEA01972D0F800AC6325;
+			remoteInfo = "iBatman Today";
+		};
+		39F6BECC1972F73900AC6325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F6BEC11972F73800AC6325;
+			remoteInfo = "Batman Signal";
+		};
+		39F6BECF1972F73900AC6325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F6BE6F1972CEB900AC6325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F6BEC11972F73800AC6325;
+			remoteInfo = "Batman Signal";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		39F6BEB51972D0F800AC6325 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				396E66451973001B002E4323 /* Share Batman.appex in Embed App Extensions */,
+				39F6BECE1972F73900AC6325 /* Batman Signal.appex in Embed App Extensions */,
+				39F6BEAF1972D0F800AC6325 /* iBatman Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		396E663A1973001A002E4323 /* Share Batman.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share Batman.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		396E663D1973001B002E4323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396E663E1973001B002E4323 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		396E663F1973001B002E4323 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		396E66411973001B002E4323 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		39F6BE771972CEB900AC6325 /* iBatman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBatman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F6BE7B1972CEB900AC6325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F6BE7C1972CEB900AC6325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,9 +112,29 @@
 		39F6BE8D1972CEB900AC6325 /* iBatmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBatmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F6BE921972CEB900AC6325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F6BE931972CEB900AC6325 /* iBatmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBatmanTests.m; sourceTree = "<group>"; };
+		39F6BEA11972D0F800AC6325 /* iBatman Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iBatman Today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F6BEA31972D0F800AC6325 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		39F6BEA71972D0F800AC6325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F6BEA81972D0F800AC6325 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		39F6BEA91972D0F800AC6325 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		39F6BEAB1972D0F800AC6325 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		39F6BEBC1972F04000AC6325 /* iBatman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iBatman.entitlements; sourceTree = "<group>"; };
+		39F6BEBD1972F08100AC6325 /* iBatman Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iBatman Today.entitlements"; sourceTree = "<group>"; };
+		39F6BEC21972F73900AC6325 /* Batman Signal.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Batman Signal.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F6BEC61972F73900AC6325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F6BEC71972F73900AC6325 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		39F6BEC81972F73900AC6325 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		39F6BECA1972F73900AC6325 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		396E66371973001A002E4323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39F6BE741972CEB900AC6325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,14 +149,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39F6BE9E1972D0F800AC6325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F6BEA41972D0F800AC6325 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F6BEBF1972F73800AC6325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F6BEC31972F73900AC6325 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		396E663B1973001A002E4323 /* Share Batman */ = {
+			isa = PBXGroup;
+			children = (
+				396E663E1973001B002E4323 /* ShareViewController.h */,
+				396E663F1973001B002E4323 /* ShareViewController.m */,
+				396E66411973001B002E4323 /* MainInterface.storyboard */,
+				396E663C1973001A002E4323 /* Supporting Files */,
+			);
+			path = "Share Batman";
+			sourceTree = "<group>";
+		};
+		396E663C1973001A002E4323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396E663D1973001B002E4323 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		39F6BE6E1972CEB900AC6325 = {
 			isa = PBXGroup;
 			children = (
 				39F6BE791972CEB900AC6325 /* iBatman */,
 				39F6BE901972CEB900AC6325 /* iBatmanTests */,
+				39F6BEA51972D0F800AC6325 /* iBatman Today */,
+				39F6BEC41972F73900AC6325 /* Batman Signal */,
+				396E663B1973001A002E4323 /* Share Batman */,
+				39F6BEA21972D0F800AC6325 /* Frameworks */,
 				39F6BE781972CEB900AC6325 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +205,9 @@
 			children = (
 				39F6BE771972CEB900AC6325 /* iBatman.app */,
 				39F6BE8D1972CEB900AC6325 /* iBatmanTests.xctest */,
+				39F6BEA11972D0F800AC6325 /* iBatman Today.appex */,
+				39F6BEC21972F73900AC6325 /* Batman Signal.appex */,
+				396E663A1973001A002E4323 /* Share Batman.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +215,7 @@
 		39F6BE791972CEB900AC6325 /* iBatman */ = {
 			isa = PBXGroup;
 			children = (
+				39F6BEBC1972F04000AC6325 /* iBatman.entitlements */,
 				39F6BE7E1972CEB900AC6325 /* AppDelegate.h */,
 				39F6BE7F1972CEB900AC6325 /* AppDelegate.m */,
 				39F6BE811972CEB900AC6325 /* ViewController.h */,
@@ -116,9 +253,73 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		39F6BEA21972D0F800AC6325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F6BEA31972D0F800AC6325 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39F6BEA51972D0F800AC6325 /* iBatman Today */ = {
+			isa = PBXGroup;
+			children = (
+				39F6BEBD1972F08100AC6325 /* iBatman Today.entitlements */,
+				39F6BEA81972D0F800AC6325 /* TodayViewController.h */,
+				39F6BEA91972D0F800AC6325 /* TodayViewController.m */,
+				39F6BEAB1972D0F800AC6325 /* MainInterface.storyboard */,
+				39F6BEA61972D0F800AC6325 /* Supporting Files */,
+			);
+			path = "iBatman Today";
+			sourceTree = "<group>";
+		};
+		39F6BEA61972D0F800AC6325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F6BEA71972D0F800AC6325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39F6BEC41972F73900AC6325 /* Batman Signal */ = {
+			isa = PBXGroup;
+			children = (
+				39F6BEC71972F73900AC6325 /* TodayViewController.h */,
+				39F6BEC81972F73900AC6325 /* TodayViewController.m */,
+				39F6BECA1972F73900AC6325 /* MainInterface.storyboard */,
+				39F6BEC51972F73900AC6325 /* Supporting Files */,
+			);
+			path = "Batman Signal";
+			sourceTree = "<group>";
+		};
+		39F6BEC51972F73900AC6325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F6BEC61972F73900AC6325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		396E66391973001A002E4323 /* Share Batman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396E664A1973001B002E4323 /* Build configuration list for PBXNativeTarget "Share Batman" */;
+			buildPhases = (
+				396E66361973001A002E4323 /* Sources */,
+				396E66371973001A002E4323 /* Frameworks */,
+				396E66381973001A002E4323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Share Batman";
+			productName = "Share Batman";
+			productReference = 396E663A1973001A002E4323 /* Share Batman.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		39F6BE761972CEB900AC6325 /* iBatman */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39F6BE971972CEB900AC6325 /* Build configuration list for PBXNativeTarget "iBatman" */;
@@ -126,10 +327,17 @@
 				39F6BE731972CEB900AC6325 /* Sources */,
 				39F6BE741972CEB900AC6325 /* Frameworks */,
 				39F6BE751972CEB900AC6325 /* Resources */,
+				39F6BEB51972D0F800AC6325 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				39F6BEAE1972D0F800AC6325 /* PBXTargetDependency */,
+				39F6BEB11972D0F800AC6325 /* PBXTargetDependency */,
+				39F6BECD1972F73900AC6325 /* PBXTargetDependency */,
+				39F6BED01972F73900AC6325 /* PBXTargetDependency */,
+				396E66441973001B002E4323 /* PBXTargetDependency */,
+				396E66471973001B002E4323 /* PBXTargetDependency */,
 			);
 			name = iBatman;
 			productName = iBatman;
@@ -154,6 +362,40 @@
 			productReference = 39F6BE8D1972CEB900AC6325 /* iBatmanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		39F6BEA01972D0F800AC6325 /* iBatman Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F6BEB21972D0F800AC6325 /* Build configuration list for PBXNativeTarget "iBatman Today" */;
+			buildPhases = (
+				39F6BE9D1972D0F800AC6325 /* Sources */,
+				39F6BE9E1972D0F800AC6325 /* Frameworks */,
+				39F6BE9F1972D0F800AC6325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iBatman Today";
+			productName = "iBatman Today";
+			productReference = 39F6BEA11972D0F800AC6325 /* iBatman Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		39F6BEC11972F73800AC6325 /* Batman Signal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F6BED11972F73900AC6325 /* Build configuration list for PBXNativeTarget "Batman Signal" */;
+			buildPhases = (
+				39F6BEBE1972F73800AC6325 /* Sources */,
+				39F6BEBF1972F73800AC6325 /* Frameworks */,
+				39F6BEC01972F73800AC6325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Batman Signal";
+			productName = "Batman Signal";
+			productReference = 39F6BEC21972F73900AC6325 /* Batman Signal.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,12 +405,35 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Liviu Romascanu";
 				TargetAttributes = {
+					396E66391973001A002E4323 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = WZZ4E5L8EL;
+					};
 					39F6BE761972CEB900AC6325 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = WZZ4E5L8EL;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					39F6BE8C1972CEB900AC6325 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 39F6BE761972CEB900AC6325;
+					};
+					39F6BEA01972D0F800AC6325 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = WZZ4E5L8EL;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					39F6BEC11972F73800AC6325 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = WZZ4E5L8EL;
 					};
 				};
 			};
@@ -187,11 +452,22 @@
 			targets = (
 				39F6BE761972CEB900AC6325 /* iBatman */,
 				39F6BE8C1972CEB900AC6325 /* iBatmanTests */,
+				39F6BEA01972D0F800AC6325 /* iBatman Today */,
+				39F6BEC11972F73800AC6325 /* Batman Signal */,
+				396E66391973001A002E4323 /* Share Batman */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		396E66381973001A002E4323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396E66421973001B002E4323 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39F6BE751972CEB900AC6325 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,9 +484,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39F6BE9F1972D0F800AC6325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F6BEAC1972D0F800AC6325 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F6BEC01972F73800AC6325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F6BECB1972F73900AC6325 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		396E66361973001A002E4323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396E66401973001B002E4323 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39F6BE731972CEB900AC6325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,13 +529,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39F6BE9D1972D0F800AC6325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F6BEAA1972D0F800AC6325 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F6BEBE1972F73800AC6325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F6BEC91972F73900AC6325 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		396E66441973001B002E4323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396E66391973001A002E4323 /* Share Batman */;
+			targetProxy = 396E66431973001B002E4323 /* PBXContainerItemProxy */;
+		};
+		396E66471973001B002E4323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396E66391973001A002E4323 /* Share Batman */;
+			targetProxy = 396E66461973001B002E4323 /* PBXContainerItemProxy */;
+		};
 		39F6BE8F1972CEB900AC6325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 39F6BE761972CEB900AC6325 /* iBatman */;
 			targetProxy = 39F6BE8E1972CEB900AC6325 /* PBXContainerItemProxy */;
+		};
+		39F6BEAE1972D0F800AC6325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F6BEA01972D0F800AC6325 /* iBatman Today */;
+			targetProxy = 39F6BEAD1972D0F800AC6325 /* PBXContainerItemProxy */;
+		};
+		39F6BEB11972D0F800AC6325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F6BEA01972D0F800AC6325 /* iBatman Today */;
+			targetProxy = 39F6BEB01972D0F800AC6325 /* PBXContainerItemProxy */;
+		};
+		39F6BECD1972F73900AC6325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F6BEC11972F73800AC6325 /* Batman Signal */;
+			targetProxy = 39F6BECC1972F73900AC6325 /* PBXContainerItemProxy */;
+		};
+		39F6BED01972F73900AC6325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F6BEC11972F73800AC6325 /* Batman Signal */;
+			targetProxy = 39F6BECF1972F73900AC6325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -251,6 +597,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		396E66481973001B002E4323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Share Batman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		396E66491973001B002E4323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Share Batman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		39F6BE951972CEB900AC6325 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,9 +710,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = iBatman/iBatman.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iBatman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -343,9 +725,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = iBatman/iBatman.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iBatman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -383,9 +769,77 @@
 			};
 			name = Release;
 		};
+		39F6BEB31972D0F800AC6325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "iBatman Today/iBatman Today.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iBatman Today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39F6BEB41972D0F800AC6325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "iBatman Today/iBatman Today.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iBatman Today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		39F6BED21972F73900AC6325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Batman Signal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39F6BED31972F73900AC6325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Batman Signal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		396E664A1973001B002E4323 /* Build configuration list for PBXNativeTarget "Share Batman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396E66481973001B002E4323 /* Debug */,
+				396E66491973001B002E4323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		39F6BE721972CEB900AC6325 /* Build configuration list for PBXProject "iBatman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -402,6 +856,7 @@
 				39F6BE991972CEB900AC6325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F6BE9A1972CEB900AC6325 /* Build configuration list for PBXNativeTarget "iBatmanTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +865,25 @@
 				39F6BE9C1972CEB900AC6325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F6BEB21972D0F800AC6325 /* Build configuration list for PBXNativeTarget "iBatman Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F6BEB31972D0F800AC6325 /* Debug */,
+				39F6BEB41972D0F800AC6325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F6BED11972F73900AC6325 /* Build configuration list for PBXNativeTarget "Batman Signal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F6BED21972F73900AC6325 /* Debug */,
+				39F6BED31972F73900AC6325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
